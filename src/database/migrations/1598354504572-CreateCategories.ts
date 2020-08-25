@@ -20,12 +20,13 @@ export default class CreateCategories1598354504572
           },
           {
             name: 'created_at',
-            type: 'timestamps',
-            default: 'now',
+            type: 'timestamp',
+            default: 'now()',
           },
           {
             name: 'updated_at',
-            type: 'timestamps',
+            type: 'timestamp',
+            default: 'now()',
           },
         ],
       }),
